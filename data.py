@@ -1,3 +1,7 @@
+'''
+Modified from https://github.com/biomed-AI/nucleic-acid-binding.
+'''
+
 import numpy as np
 import random
 import torch
@@ -43,9 +47,7 @@ class BatchSampler(data.Sampler):
 
 
 class ProteinGraphDataset(data.Dataset):
-    '''
-    Modified from https://github.com/biomed-AI/nucleic-acid-binding.
-    '''
+
     def __init__(self, dataset, labels_dict, index, args,
                  top_k=30, device="cuda"):
         super(ProteinGraphDataset, self).__init__()
