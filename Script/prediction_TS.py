@@ -7,7 +7,6 @@ import argparse
 import os
 from sklearn.metrics import accuracy_score, roc_auc_score, matthews_corrcoef, balanced_accuracy_score, auc, recall_score, precision_score, f1_score, confusion_matrix, average_precision_score
 
-# 参数解析
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset_path", type=str, default='D:/zxm/mine/Example/structure/')
 parser.add_argument("--feature_path", type=str, default='D:/zxm/mine/Example/prottrans/')
