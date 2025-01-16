@@ -2,7 +2,7 @@
 Perform UQ and TS on RBP binding site prediction and conduct bin sample screening.
 
 ## System requirement
-Our models are developed under Linux/Windows environment with:  
+```
 python==3.8.16
 torch==1.13.1+cu116
 torch-geometric==2.5.3
@@ -10,7 +10,7 @@ torch-cluster==1.6.1+pt113cu116
 torch-scatter==2.1.1+pt113cu116
 torch-spline-conv==1.2.2+pt113cu116
 fair-esm==2.0.0
-
+```
 You need to pay attention to the packages installed during the environment configuration:
 ```
 pip install fair-esm
